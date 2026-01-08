@@ -1,6 +1,6 @@
 # Interview Prep App
 
-An application for **personalized interview preparation**, it helps you practice conceptual, behavioral, and coding questions tailored to your **resume** and a **job description**, tracks your **strengths, weaknesses, and improvement areas**, and provides AI-generated feedback on your answers.
+Application for **personalized interview preparation** - it helps you practice conceptual, behavioral, and coding questions tailored to your **resume** and a **job description**, tracks your **strengths, weaknesses, and improvement areas**, and provides AI-generated feedback on your answers.
 
 --------------------------------------------------
 
