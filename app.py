@@ -76,33 +76,6 @@ with tabs[0]:
 
 # ================= MOCK INTERVIEW =================
 
-# with tabs[1]:
-#     st.header("Mock Interview")
-
-#     duration = st.slider("Interview Duration (mins)", 15, 90, 30)
-#     mix = st.multiselect(
-#         "Question Mix",
-#         ["Conceptual", "Behavioral", "Coding"],
-#         default=["Conceptual", "Behavioral"]
-#     )
-
-#     if "mock_q" not in st.session_state:
-#         st.session_state.mock_q = None
-
-#     if st.button("Start Mock Interview"):
-#         mode = mix[0] if mix else "Conceptual"
-#         st.session_state.mock_q = generate_question(context, mode, "Medium")
-
-#     if st.session_state.mock_q:
-#         st.subheader("Question")
-#         st.write(st.session_state.mock_q)
-
-#         mock_ans = st.text_area("Your Answer (Mock)")
-
-#         if st.button("Submit Mock Answer"):
-#             fb = evaluate_answer(context, st.session_state.mock_q, mock_ans)
-#             st.subheader("Feedback")
-#             st.write(fb)
 
 with tabs[1]:
     st.header("Mock Interview")
